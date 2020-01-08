@@ -1,0 +1,9 @@
+#!/bin/sh
+
+# To calculate time for a command to execute
+
+INIT_TIME=$(date +%s)
+TASK=$($1 $2)
+END_TIME=$(date +%s)
+DIFF=$(( END_TIME - INIT_TIME ))
+echo "Time Taken: $DIFF seconds"

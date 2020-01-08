@@ -1,0 +1,2 @@
+#!/bin/sh
+locate -i $1 | grep $2

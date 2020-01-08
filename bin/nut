@@ -1,0 +1,2 @@
+#!/bin/sh
+figlet $1 -f 3d.flf | lolcat

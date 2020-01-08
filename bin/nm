@@ -1,0 +1,2 @@
+#!/bin/sh
+ nohup redshift -l 11.1:78.4 -t 4300:6100 -g 0.8

@@ -1,0 +1,40 @@
+#!/bin/sh
+alias lf="ls -aF| grep -v /  " \
+alias ni='nvim'
+alias r='ranger'
+alias h='htop'
+alias ld='ls -aF | grep / '
+alias lfg='ls -aF | grep -v / | grep'
+alias ldg='ls -aF | grep /|grep'
+alias vs='code oss'
+alias day=' date | cut --delimiter=" " --fields="1"'
+
+alias llf='ls -aFlh| grep -v /'
+alias lld='ls -aFlh| grep /'
+alias f='file'
+#making files alias by \
+alias \
+mkd="mkdir -pv" \
+b="cd .." \
+bb="cd ../.." \
+bbb="cd ../../.." \
+a="nvim $HOME/.config/aliasrc" \
+rmd="rm -rf" \
+lb="cd $HOME/.local/bin" \
+jn="jupyter notebook ~/data_science_training" \
+i="nvim ~/.i3/config" \
+g="grep" \
+mp="mousepad" \
+li="nvim ~/voidrice/.config/i3/config " \
+lk="cd  ~/voidrice/.config/ ; ls " \
+x="nvim ~/.Xresources" \
+kb="cat ~/MyKeybinds.md" \
+clr="grep --color" \
+zcf="nvim .zshrc" \
+#nm=" redshift -l 55.7:12.6 -t 5700:4300 -g 0.8"  \
+# Colorize commands when possible.
+alias \
+	ls="ls -hN --color=auto --group-directories-first" \
+	grep="grep --color=auto" \
+	diff="diff --color=auto" \
+	ccat="highlight --out-format=ansi" \

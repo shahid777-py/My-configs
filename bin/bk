@@ -1,0 +1,5 @@
+#!/bin/bash
+
+# To Backup My Config Files
+
+tar -cvzf ~/archive/myconfigs.tar.gz ~/{.Xresources,MyKeybinds.md,.local/bin,.bahsrc,data_science_training,.zprofile,/.i3} ~/.config/{aliasrc,zsh,nvim/init.vim} 2> ~/errors/error.log

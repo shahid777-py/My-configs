@@ -1,0 +1,13 @@
+#!/bin/sh
+
+# To Automate Scripting The Boring Stuffs
+
+DIR="$HOME/.local/bin/$1"
+if [[ -f $DIR ]]; then
+	echo "File Already Exist"
+else
+echo "#!/bin/sh" >$DIR
+chmod  777 $DIR
+nvim $DIR
+
+fi
