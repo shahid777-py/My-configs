@@ -1,2 +1,2 @@
 #!/bin/sh
-sudo cp -r   ~/{.Xresources,MyKeybinds.md,.local/bin,.bashrc,data_science_training,.zprofile,/.i3} ~/.config/{aliasrc,zsh,nvim/init.vim} ~/My-configs/
+sudo cp -r   ~/{.Xresources,.zshrc,MyKeybinds.md,.local/bin,.bashrc,data_science_training,.zprofile,/.i3} ~/.config/{aliasrc,zsh,nvim/init.vim} ~/My-configs/
