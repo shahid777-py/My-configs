@@ -335,7 +335,8 @@ set_from_resource $term_color15    color15
 
 bar {
 	 colors {
-background #073642
+#background #073642
+background #b38f00
     }
         font pango:mono 12
  #i3bar_command i3bar --transparency
